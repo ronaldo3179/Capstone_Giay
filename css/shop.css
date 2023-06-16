@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+
+header .navbar {
+  padding: 20px 40px;
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+}
+header .navbar .logo img {
+  width: 150px;
+}
+header .navbar .navlist ul.direction {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+header .navbar .navlist ul.direction li.page a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+}
+header .navbar .mb-3 {
+  display: flex;
+  position: relative;
+}
+header .navbar .mb-3 button {
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+header .navbar .icons {
+  font-size: 18px;
+}
+header .navbar .icons a {
+  color: rgba(0, 0, 0, 0.342);
+  margin-right: 20px;
+  transition: all 0.5s;
+}
+header .navbar .icons a:nth-child(1):hover {
+  color: green;
+}
+header .navbar .icons a:nth-child(2):hover {
+  color: red;
+}
+header .navbar .icons a:nth-child(3):hover {
+  color: blue;
+}
+
+.shop {
+  padding: 30px 50px;
+  display: flex;
+}
+.shop .small__images {
+  width: 15%;
+  margin-right: 20px;
+}
+.shop .small__images img {
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.shop .small__images img:hover {
+  border: 7px solid rgba(255, 166, 0, 0.568);
+}
+.shop .big__image {
+  width: 50%;
+  margin-right: 70px;
+}
+.shop .big__image img {
+  width: 100%;
+  transition: all 0.5s;
+}
+.shop .big__image img:hover {
+  transform: scale(1.05);
+}
+.shop .description {
+  width: 33%;
+}
+.shop .description .size {
+  width: 300px;
+}
+.shop .description .size .size__choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.shop .description .bag {
+  width: 300px;
+}
+.shop .description .bag button {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+}
+.shop .description .bag button p {
+  position: relative;
+  top: 5px;
+  font-weight: 600;
+}
+.shop .description .bag #add {
+  background-color: white;
+  border: 2px solid pink;
+}
+.shop .description .bag #add:hover {
+  background-color: pink;
+  color: white;
+}
+.shop .description .bag #add:hover p {
+  color: white !important;
+}
+
+.items {
+  padding: 0px 40px 20px 40px;
+}
+.items .items__title {
+  display: flex;
+  justify-content: space-between;
+}
+.items .items__title .left {
+  position: relative;
+  top: 44px;
+}
+.items .items__title .right {
+  display: flex;
+  justify-content: baseline;
+}
+.items .items__title .right i {
+  font-size: 25px;
+}
+.items .items__title .right a {
+  text-decoration: none;
+  color: black;
+}
+.items .item {
+  min-height: 480px;
+  width: 300px;
+  margin-right: 20px;
+  text-align: center;
+}
+.items .item h3 {
+  position: relative;
+  top: 72px;
+  z-index: 9999;
+}
+.items .item img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  filter: saturate(10%);
+  transition: all 0.5s;
+  border-radius: 10px;
+  transform: scale(0.9);
+}
+.items .item img:hover {
+  filter: saturate(100%);
+  transform: scale(1);
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.795);
+  padding: 30px 70px;
+}
+.footer .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footer .content .column1 {
+  line-height: 40px;
+}
+.footer .content .column1 a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.footer .content #list .title a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.footer .content #list ul {
+  list-style-type: none;
+  line-height: 40px;
+}
+.footer .content #list ul a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.425);
+  transition: all 0.5s;
+}
+.footer .content #list ul a:hover {
+  color: white;
+}
+.footer .content .column4 {
+  display: flex;
+}
+.footer .content .column4 .icon {
+  background-color: rgba(255, 255, 255, 0.596);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.footer .content .column4 .icon:hover {
+  background-color: white;
+}
+.footer .content .column4 .icon i {
+  color: rgba(0, 0, 0, 0.596);
+}/*# sourceMappingURL=shop.css.map */
