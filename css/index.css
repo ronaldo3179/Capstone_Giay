@@ -503,3 +503,68 @@ header .navbar .icons a:nth-child(3):hover {
 .footer .content .column4 .icon i {
   color: rgba(0, 0, 0, 0.596);
 } /*# sourceMappingURL=index.css.map */
+/* Responsive */
+@media screen and (max-width: 890px) {
+  .navbar .navlist {
+    display: none;
+  }
+  .navbar .icons button {
+    display: inline-block !important;
+  }
+  .navbar .icons .offcanvas-lg {
+    display: inline-block !important;
+  }
+}
+@media screen and (max-width: 610px) {
+  .navbar .search {
+    display: none;
+  }
+}
+@media screen and (max-width: 956px) {
+  .banner .banner__vid {
+    height: auto;
+    width: auto;
+  }
+  .banner .banner__vid video {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1460px) {
+  .slogan {
+    display: block;
+  }
+  .slogan .slogan__img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .slogan .slogan__img img {
+    width: 100%;
+  }
+  .slogan .content {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 633px) {
+  .footer .content .column1 {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .content .column2 {
+    width: 50%;
+    text-align: center;
+  }
+  .footer .content .column3 {
+    width: 50%;
+    text-align: center;
+  }
+  .footer .content #list ul {
+    position: relative;
+    left: -14px;
+  }
+  .footer .content .column4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
